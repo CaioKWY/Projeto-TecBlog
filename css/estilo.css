@@ -22,10 +22,10 @@
      
      width: 920px;
      margin: 0 auto;
+     padding: 15px;
  }
- #area-postagens, #area-lateral{
-     background: green;
- }
+ 
+ 
  
  #area-postagens{
      width: 660px;
@@ -51,18 +51,67 @@
      color: #4e4e4e;
      font-size: 2,5em;
  }
+ h2{
+    color: #f7b600;
+ }
+ h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+ }
  .branco{
      color: white;
  }
- a:link, a:visited{
+
+ a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+   
+}
+a:hover{
+    text-decoration: underline;
+} 
+
+ #area-menu a:link, #area-menu a:visited{
      color: #FFF;
      padding: 8px 12px;
  }
- a:hover{
+ #area-menu a:hover{
      color: #f7b600;
      background: #fff;
- }
- a{
      text-decoration: none;
-     font-weight: 600;
+ }
+ .postagens{
+    padding: 20px;
+    margin-bottom: 20px;;
+    background: white;
+ }
+ .data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #4e4e4e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+ }
+
+ 
+ .conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+ }
+
+ .texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+
+ }
+ .links-categorias{
+    padding: 5px;
+    font-size: 0.9em;
  }
